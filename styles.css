@@ -1,0 +1,942 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header with background image */
+header {
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+header .logo {
+    width: 200px; /* Increased size */
+    height: 200px; /* Make the height equal to the width to keep it circular */
+    border-radius: 50%; /* This makes the logo circular */
+    margin-bottom: 20px; /* Add space between logo and header text */
+    object-fit: cover; /* Ensures the logo fits well without distortion */
+}
+
+/* Logo and navigation */
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main section styling */
+section#home {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2 {
+    color: #0074d9;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section#home {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Header with background image */
+header {
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+header .logo {
+    width: 200px; /* Increased size */
+    height: 200px; /* Make the height equal to the width to keep it circular */
+    border-radius: 50%; /* This makes the logo circular */
+    margin-bottom: 20px; /* Add space between logo and header text */
+    object-fit: cover; /* Ensures the logo fits well without distortion */
+}
+
+/* Logo and navigation */
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main section styling */
+section#home {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background-color: #6a1b9a; /* Purple background for the container */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #6a1b9a; /* Purple container background */
+    color: white;
+}
+
+/* Mission Section */
+#mission {
+    margin-bottom: 30px;
+}
+
+/* Key Programs */
+#programs {
+    margin-bottom: 30px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.program {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: white;
+    color: #6a1b9a;
+    border-radius: 8px;
+}
+
+.program h4 {
+    margin-bottom: 10px;
+}
+
+.program p {
+    margin-bottom: 20px;
+}
+
+/* Impact Section */
+#impact {
+    margin-bottom: 30px;
+}
+
+.impact-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h4 {
+    font-size: 2rem;
+    color: #ff7f50; /* A contrasting color for stats */
+}
+
+.stat p {
+    font-size: 1.2rem;
+}
+
+/* Success Story Section */
+#success-story {
+    margin-bottom: 30px;
+}
+
+/* Call to Action Section */
+#cta {
+    margin-top: 30px;
+}
+
+button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff5722;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff7f50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Image placeholders */
+.image-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    section#home {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .programs {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Add the background image to the body */
+body {
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Container for consistent centered content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(128, 0, 128, 0.8); /* Purple background with transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #FF6347; /* Bright orange background */
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #FF4500; /* Darker orange on hover */
+}
+
+/* Team Section Styles */
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 180px;
+}
+
+.team-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    width: 120px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #333; /* Darken the background on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Body Styling */
+body {
+    background-color: #6A0DAD; /* Purple background for the entire page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* White text color for the entire page */
+}
+
+/* Container for all content */
+.container {
+    background-color: #E6A9EC; /* Lighter shade of purple/pink for the content area */
+    margin: 50px auto; /* Adds margin on the top and bottom */
+    padding: 20px;
+    width: 80%; /* 80% of the page width */
+    max-width: 1200px; /* Max width of the content area */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for the container */
+}
+
+/* Ensure the body and container are styled correctly across pages */
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+h1, h2, h3, p {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* Impact Diagram Styling */
+.impact-diagram {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Mission and Vision Images */
+.mission-image, .vision-image {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+
+
+
+
+
+
+/* Core Values Section Styling */
+#core-values {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#core-values h3 {
+    font-size: 2rem;
+    color: #fff; /* White text for the header */
+    margin-bottom: 20px;
+}
+
+#core-values p {
+    font-size: 1rem;
+    color: #fff; /* White text for the paragraph */
+    margin-bottom: 30px;
+}
+
+/* Core Values Container */
+.core-values-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Core Value Card Styling */
+.core-value-card {
+    background-color: #F2A6D2; /* Lighter pinkish shade */
+    padding: 20px;
+    width: 250px; /* Set width for each card */
+    height: 250px; /* Set height for each card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    color: #333; /* Darker text for the card */
+}
+
+.core-value-card h4 {
+    font-size: 1.25rem;
+    color: #333; /* Darker text for the title */
+    margin-bottom: 10px;
+}
+
+.core-value-card p {
+    font-size: 1rem;
+    color: #333; /* Darker text for the paragraph */
+}
+
+
+
+
+
+
+
+
+/* Programs Section Styling */
+
+
+#programs h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.program-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black; /* Set the text color to black for all text in the card */
+}
+
+.program-image-holder {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    background-color: #ddd; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.program-image-holder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.program-card h3 {
+    font-size: 1.5rem;
+    color: black; /* Set the heading color to black */
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 1rem;
+    color: black; /* Set the paragraph text color to black */
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Programs Section Styling */
+
+
+#programs h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.program-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black; /* Set the text color to black for all text in the card */
+}
+
+.program-image-holder {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    background-color: #ddd; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.program-image-holder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.program-card h3 {
+    font-size: 1.5rem;
+    color: black; /* Set the heading color to black */
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 1rem;
+    color: black; /* Default color for descriptions */
+    margin-bottom: 15px;
+}
+
+/* Specific color styles for program descriptions */
+.program-card:nth-child(1) p {
+    color: #FF6347; /* Tomato color */
+}
+
+.program-card:nth-child(2) p {
+    color: #32CD32; /* Lime Green */
+}
+
+.program-card:nth-child(3) p {
+    color: #1E90FF; /* Dodger Blue */
+}
+
+.program-card:nth-child(4) p {
+    color: #FF69B4; /* Hot Pink */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Us Section Styling */
+
+#contact-us h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #F2A6D2;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #FF69B4; /* Hover effect */
+}
+
+
+
+
+
+
+
+/* Payment Logo Style */
+.payment-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-logo-img {
+    width: 270px;  /* Increased size */
+    height: 150px;  /* Increased size */
+    object-fit: cover;   /* Ensures the image fills the circle */
+    border: 2px solid #fff;  /* Optional: adds a border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Optional: adds shadow for effect */
+}
+
+/* You can also adjust the size of the image, margin, etc. */
+
+
+
+
+
+
+/* Ensure all images are responsive and fit their container */
+img {
+    width: 100%;      /* Makes the images scale with the container width */
+    height: auto;     /* Maintains the aspect ratio */
+    display: block;   /* Removes any extra space below the images */
+    margin: 0 auto;   /* Centers the images horizontally */
+    border-radius: 10px;  /* Optional: Adds rounded corners to the images */
+}
+
+/* For the Mission Image */
+.mission-image {
+    max-width: 100%;   /* Ensures the image doesn't exceed container width */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* For Program Images */
+.program-image {
+    max-width: 100%;   /* Ensures the image doesn't exceed container width */
+    height: auto;      /* Maintains aspect ratio */
+    border-radius: 10px;  /* Optional: Adds rounded corners */
+}
+
+/* For Success Story Image */
+.success-story-image {
+    max-width: 100%;   /* Ensures the image doesn't exceed container width */
+    height: auto;      /* Maintains aspect ratio */
+    border-radius: 10px;  /* Optional: Adds rounded corners */
+}
+
+/* Optional: Add padding or spacing between sections */
+section {
+    padding: 20px 0;
+}
+
+/* For the Call-to-Action (CTA) buttons */
+#cta button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #FF5E5B; /* Example CTA button color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background-color: #FF2A29; /* Darker CTA color on hover */
+}
+
+
+
+/* Ensure the Success Story image fits the container */
+.success-story-image {
+    width: 100%;          /* Makes the image scale to fit the container width */
+    height: 100%;         /* Ensures the image covers the entire container height */
+    object-fit: cover;    /* Ensures the image completely covers the container */
+    object-position: center; /* Centers the image in case of cropping */
+    display: block;       /* Removes extra space below the image */
+    border-radius: 10px;  /* Optional: Adds rounded corners */
+}
+
+/* Optional: Styling for image container to add spacing around it */
+.image-placeholder {
+    margin-top: 20px;     /* Adds space above the image */
+    margin-bottom: 20px;  /* Adds space below the image */
+    overflow: hidden;     /* Hides any overflow if the image doesn't fit exactly */
+    border-radius: 10px;  /* Optional: Adds rounded corners to the container */
+    height: 400px;        /* Specifies a fixed height for the container to keep the image proportionate */
+}

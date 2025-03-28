@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+  <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <div class="container">
+        
+
+        <!-- Contact Us Section -->
+        <section id="contact-us">
+
+            <div class="contact-details">
+                <p><strong>Phone:</strong> +27 68 575 3002</p>
+                <p><strong>WhatsApp:</strong> +27 68 575 3002</p>
+                <p><strong>Email:</strong> agilepeople00@gmail.com</p>
+            </div>
+
+            <!-- Contact Form using Formspree -->
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form action="https://formspree.io/f/mqapdeeq" method="POST">
+                    <!-- Replace "mnqpgvlg" with your unique Formspree endpoint -->
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
