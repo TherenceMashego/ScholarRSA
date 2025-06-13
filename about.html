@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - ScholarsSA</title>
-    <!-- Link to the external CSS file -->
+    <title>About Us - Scholar SA</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-
-  <header>
-        <h1>ScholarsSA - About Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="ScholarsSA Logo" class="logo">
+                <h1>Scholar SA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
+    <main class="container">
+        <section class="card">
+            <h2>About Scholar SA</h2>
+            <p>Scholar SA was founded in 2022 by a passionate group of individuals who wanted to make a difference in the lives of children. Our mission is to support children in school with uniforms, school shoes, extra classes, sports programs, and feminine hygiene products.</p>
+            
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to empower children by providing them with the resources they need to succeed academically, explore their talents, and build a brighter future.</p>
+                    <img src="mission.jpg" alt="Our mission" class="about-image">
+                </div>
+                
+                <div class="about-item">
+                    <h3>Our Vision</h3>
+                    <p>Our vision is a world where every child, regardless of their background, has access to education, sports, and personal development opportunities.</p>
+                    <img src="vission.jpg" alt="Our vision" class="about-image">
+                </div>
+            </div>
+        </section>
 
-    <section id="about-us">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>ScholarsSA was founded in 2022 by a passionate group of individuals who wanted to make a difference in the lives of children. Our mission is to support children in school with uniforms, school shoes, extra classes, sports programs, and feminine hygiene products. We believe that every child deserves the opportunity to succeed in their education and pursue their talents.</p>
-
-            <h3>Our Mission</h3>
-            <p>Our mission is to empower children by providing them with the resources they need to succeed academically, explore their talents, and build a brighter future.</p>
-
-            <!-- Insert Mission Image -->
-           <img src="mission.jpg" alt="Mission Image" class="mission-image">
-
-
-            <h3>Our Vision</h3>
-            <p>Our vision is a world where every child, regardless of their background, has access to education, sports, and personal development opportunities, giving them the tools to succeed in life.</p>
-
-            <img src="vission.jpg" alt="Vision Image" class="vision-image">
-
-
-            <h3>Our Team</h3>
+        <section class="card">
+            <h2>Our Team</h2>
             <p>ScholarsSA was founded by a passionate group of individuals dedicated to making a difference. Meet the team behind ScholarsSA:</p>
-
-            <div class="team-members">
+            
+            <div class="team-grid">
                 <div class="team-member">
                     <img src="amos.jpeg" alt="Amos T Mashego" class="team-photo">
                     <h4>Amos T. Mashego</h4>
@@ -76,56 +82,70 @@
                     <p>Operations Manager</p>
                 </div>
             </div>
+        </section>
 
-            <h3>Our Impact</h3>
-            <p>Since our founding, we have supported over 500 children with school uniforms, helped 200 students excel in their studies through extra classes, and nurtured over 100 young athletes.</p>
-
-            <h3>Success Stories</h3>
-            <p>"My son was struggling with his studies, but after ScholarsSA helped with extra classes and a new uniform, he became more focused and motivated. He’s now passing all his subjects and has found a new sense of pride in his education." – Bhethi Mashabela</p>
-            <p>“When my daughter received a new school uniform from ScholarsSA, it gave her a boost of confidence. She now feels proud to go to school and has become more active in class. I’m so grateful for their support.” – Parent of a Scholar</p>
-            <p>"Before joining ScholarsSA, I struggled in math, and it made me feel like I wasn’t good enough. The extra classes helped me so much, and now I’m one of the top students in my grade. I feel more confident and excited about learning!" – Thabo, Grade 11</p>
-            
-
-
-            <h3>Get Involved</h3>
-            <p>You can help us make a bigger impact by donating, volunteering, or sharing our mission with your community. Together, we can change lives.</p>
-            <button onclick="window.location.href='donate.html'">Donate Now</button>
-        </div>
-    </section>
-
-
-     <section id="core-values">
-        <div class="container">
-            <h3>Our Core Values</h3>
-            <p>Our values guide everything we do. They represent who we are and how we aim to make an impact in the lives of children and communities.</p>
-
-            <div class="core-values-container">
-                <div class="core-value-card">
-                    <h4>Integrity</h4>
+        <section class="card">
+            <h2>Our Core Values</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-shield-alt value-icon"></i>
+                    <h3>Integrity</h3>
                     <p>We are committed to being honest, transparent, and ethical in all our actions and decisions.</p>
                 </div>
-
-                <div class="core-value-card">
-                    <h4>Empowerment</h4>
+                <div class="value-card">
+                    <i class="fas fa-hand-holding-heart value-icon"></i>
+                    <h3>Empowerment</h3>
                     <p>We believe in providing the resources and support to help individuals realize their potential.</p>
                 </div>
-
-                <div class="core-value-card">
-                    <h4>Community</h4>
+                <div class="value-card">
+                    <i class="fas fa-users value-icon"></i>
+                    <h3>Community</h3>
                     <p>We value building a strong, supportive community that collaborates to create positive change.</p>
                 </div>
-
-                <div class="core-value-card">
-                    <h4>Excellence</h4>
-                    <p>We strive for the highest standards of quality and aim to deliver impactful results in everything we do.</p>
+                <div class="value-card">
+                    <i class="fas fa-star value-icon"></i>
+                    <h3>Excellence</h3>
+                    <p>We strive for the highest standards of quality and aim to deliver impactful results.</p>
                 </div>
             </div>
+        </section>
+
+        <section class="card">
+            <h2>Our Impact</h2>
+            <p>Since our founding, we have supported over 500 children with school uniforms, helped 200 students excel in their studies through extra classes, and nurtured over 100 young athletes.</p>
+            
+            <h3>Success Stories</h3>
+            <div class="testimonial">
+                <blockquote>
+                    "My son was struggling with his studies, but after ScholarsSA helped with extra classes and a new uniform, he became more focused and motivated. He's now passing all his subjects and has found a new sense of pride in his education."
+                    <cite>– Bhethi Mashabela</cite>
+                </blockquote>
+            </div>
+            
+            <div class="testimonial">
+                <blockquote>
+                    "When my daughter received a new school uniform from ScholarsSA, it gave her a boost of confidence. She now feels proud to go to school and has become more active in class. I'm so grateful for their support."
+                    <cite>– Parent of a Scholar</cite>
+                </blockquote>
+            </div>
+            
+            <div class="cta-section">
+                <h3>Join Our Mission</h3>
+                <p>You can help us make a bigger impact by donating, volunteering, or sharing our mission with your community. Together, we can change lives.</p>
+                <a href="donate.html" class="btn btn-accent">Donate Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 Scholar SA. All rights reserved.</p>
         </div>
-    </section>
-
-
+    </footer>
 </body>
-
-
-
 </html>
