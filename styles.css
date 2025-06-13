@@ -486,6 +486,50 @@ footer {
 
 
 
+/* Success story image on landing page */
+.success-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Testimonial container adjustments */
+.testimonial {
+    position: relative;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 0 1rem;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    content: '"';
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .success-image {
+        max-width: 100%;
+    }
+    
+    .testimonial {
+        padding: 1rem;
+    }
+}
+
+
 
 
 
