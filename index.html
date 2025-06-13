@@ -3,119 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScholarsSA - Home</title>
+    <title>Scholar SA - Empowering Children Through Education</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="ScholarsSA Logo" class="logo">
-        <h1>Scholar SA</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="ScholarsSA Logo" class="logo">
+                <h1>Scholar SA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
+    <section class="hero">
         <div class="container">
-            <h2>Welcome to ScholarsSA</h2>
-            <p>Empowering Tomorrow, One Child at a Time</p>
-            
-            <!-- Mission Section -->
-           <section id="mission">
-    <h3>Our Mission</h3>
-    <p>Our mission is to uplift children by providing them with the resources they need to succeed in school, explore their talents, and build a brighter future.</p>
-    <div class="image-placeholder">
-        <!-- Image for Mission -->
-        <img src="landing.jpg" alt="Mission Image" class="mission-image">
-    </div>
-</section>
-
-            
-            <!-- Key Programs -->
-            <section id="programs">
-                <h3>Our Programs</h3>
-                <div class="programs">
-                    <div class="program">
-        <h4>School Uniform & Shoes Donation</h4>
-        <div class="image-placeholder">
-            <!-- Image for School Uniform -->
-            <img src="uniform.jpg" alt="School Uniform Image" class="program-image">
-        </div>
-    </div>
-                  <div class="program">
-    <h4>Extra Classes for Students</h4>
-    <div class="image-placeholder">
-        <!-- Image for Extra Classes -->
-        <img src="classes.jpg" alt="Extra Classes Image" class="program-image">
-    </div>
-</div>
-
-<div class="program">
-    <h4>Sports Talent Support</h4>
-    <div class="image-placeholder">
-        <!-- Image for Sports Talent -->
-        <img src="sports.jpg" alt="Sports Talent Image" class="program-image">
-    </div>
-</div>
-
-
-                 <div class="program">
-    <h4>Feminine Products Distribution</h4>
-    <div class="image-placeholder">
-        <!-- Image for Feminine Products -->
-        <img src="faminine.jpg" alt="Feminine Products Image" class="program-image">
-    </div>
-</div>
-
-
-                </div>
-            </section>
-            
-            <!-- Impact Statistics -->
-            <section id="impact">
-                <h3>Our Impact</h3>
-                <div class="impact-stats">
-                    <div class="stat">
-                        <h4>500+</h4>
-                        <p>Children Supported</p>
-                    </div>
-                    <div class="stat">
-                        <h4>200+</h4>
-                        <p>Extra Classes Conducted</p>
-                    </div>
-                    <div class="stat">
-                        <h4>300+</h4>
-                        <p>Sports Talents Nurtured</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Success Story -->
-           <section id="success-story">
-    <h3>Success Story</h3>
-    <p>"Our Under-10A soccer team achieved a remarkable milestone by winning their first major tournament, marking a historic moment for both the team and ScholarsSA. The victory came as a result of their relentless hard work, dedication, and teamwork, with support from our organization. ScholarsSA proudly provided soccer kits, organized transportation to the tournament, and offered mentorship to these young athletes. Their win is not just about a trophy; it's a symbol of the power of community support, discipline, and the spirit of sportsmanship. This victory shows what young minds can achieve when given the right resources and encouragement. We are incredibly proud of their accomplishment and excited to see them continue to excel in their future endeavors."</p>
-    <div class="image-placeholder">
-        <!-- Image for Success Story -->
-        <img src="success.jpg" alt="Success Story Image" class="success-story-image">
-    </div>
-</section>
-
-            <!-- Call to Action -->
-            <section id="cta">
-                <h3>Get Involved</h3>
-                <p>Help us empower more children by donating or becoming a volunteer.</p>
-                <button onclick="window.location.href='donate.html'">Donate Now</button>
-                <button onclick="window.location.href='contact.html'">Become a Volunteer</button>
-            </section>
+            <h1>Empowering Tomorrow, One Child at a Time</h1>
+            <p>Providing educational resources, sports opportunities, and essential supplies to help children in South Africa reach their full potential.</p>
+            <a href="donate.html" class="btn btn-accent">Donate Now</a>
+            <a href="programs.html" class="btn">Our Programs</a>
         </div>
     </section>
 
+    <main class="container">
+        <section class="card">
+            <h2>Our Mission</h2>
+            <p>Our mission is to uplift children by providing them with the resources they need to succeed in school, explore their talents, and build a brighter future.</p>
+            <img src="landing.jpg" alt="Children learning" class="mission-image">
+        </section>
 
+        <section>
+            <h2>Our Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <img src="uniform.jpg" alt="School uniforms" class="program-image">
+                    <div class="program-content">
+                        <h3>School Uniform & Shoes</h3>
+                        <p>Providing school uniforms and shoes to ensure children can attend school with dignity and confidence.</p>
+                        <a href="programs.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <img src="classes.jpg" alt="Extra classes" class="program-image">
+                    <div class="program-content">
+                        <h3>Extra Classes</h3>
+                        <p>Supplemental education programs to help students excel in their academic pursuits.</p>
+                        <a href="programs.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <img src="sports.jpg" alt="Sports program" class="program-image">
+                    <div class="program-content">
+                        <h3>Sports Talent Support</h3>
+                        <p>Identifying and nurturing athletic talent through structured sports programs.</p>
+                        <a href="programs.html" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Our Impact</h2>
+            <div class="impact-stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Children Supported</p>
+                </div>
+                <div class="stat">
+                    <h3>200+</h3>
+                    <p>Extra Classes Conducted</p>
+                </div>
+                <div class="stat">
+                    <h3>100+</h3>
+                    <p>Sports Talents Nurtured</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Success Stories</h2>
+            <div class="testimonial">
+                <img src="success.jpg" alt="Soccer team success" class="success-image">
+                <blockquote>
+                    "Our Under-10A soccer team achieved a remarkable milestone by winning their first major tournament, marking a historic moment for both the team and ScholarsSA. The victory came as a result of their relentless hard work, dedication, and teamwork, with support from our organization."
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 Scholar SA. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
