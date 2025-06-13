@@ -3,72 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programs - ScholarsSA</title>
+    <title>Our Programs - Scholar SA</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-
-  <header>
-        <h1>ScholarsSA - About Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="programs.html">Programs</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="ScholarsSA Logo" class="logo">
+                <h1>Scholar SA</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html" class="active">Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-<body>
-
-
-    <!-- Programs Section -->
-    <section id="programs">
-        <div class="container">
+    <main class="container">
+        <section class="card">
             <h2>Our Programs</h2>
-            <p>At ScholarsSA, we offer a variety of programs designed to support children in school, empower them in their educational journeys, and ensure they have the resources they need to succeed.</p>
+            <p class="intro-text">At Scholar SA, we offer comprehensive programs designed to support children's education, personal development, and athletic potential. Each program addresses specific needs to help children thrive.</p>
             
-            <div class="programs-container">
-                <!-- Program 1 -->
+            <div class="programs-grid">
                 <div class="program-card">
-                    <div class="program-image-holder">
-                        <img src="uniform.jpg" alt="School Uniform Program">
+                    <img src="uniform.jpg" alt="School Uniform Program" class="program-image">
+                    <div class="program-content">
+                        <h3>School Uniforms & Shoes</h3>
+                        <p>This program provides school uniforms and shoes to children in need to ensure they can attend school with confidence and dignity.</p>
+                        <div class="program-stats">
+                            <div class="stat">
+                                <i class="fas fa-child"></i>
+                                <p>500+ children supported</p>
+                            </div>
+                        </div>
+                        <a href="donate.html" class="btn">Support This Program</a>
                     </div>
-                    <h3>School Uniforms & Shoes</h3>
-                    <p>This program provides school uniforms and shoes to children in need to ensure they can attend school with confidence and dignity.</p>
                 </div>
                 
-                <!-- Program 2 -->
                 <div class="program-card">
-                    <div class="program-image-holder">
-                        <img src="classes.jpg" alt="Extra Classes Program">
+                    <img src="classes.jpg" alt="Extra Classes Program" class="program-image">
+                    <div class="program-content">
+                        <h3>Extra Classes</h3>
+                        <p>We offer extra classes to help children who need additional support with their studies, ensuring they don't fall behind academically.</p>
+                        <div class="program-stats">
+                            <div class="stat">
+                                <i class="fas fa-graduation-cap"></i>
+                                <p>200+ students helped</p>
+                            </div>
+                        </div>
+                        <a href="donate.html" class="btn">Support This Program</a>
                     </div>
-                    <h3>Extra Classes</h3>
-                    <p>We offer extra classes to help children who need additional support with their studies, ensuring they don't fall behind academically.</p>
                 </div>
                 
-                <!-- Program 3 -->
                 <div class="program-card">
-                    <div class="program-image-holder">
-                        <img src="sports.jpg" alt="Sports Talent Program">
+                    <img src="sports.jpg" alt="Sports Talent Program" class="program-image">
+                    <div class="program-content">
+                        <h3>Sports Talent Support</h3>
+                        <p>This program aims to identify and support children with sports talent, providing them with the resources to excel in their chosen sport.</p>
+                        <div class="program-stats">
+                            <div class="stat">
+                                <i class="fas fa-trophy"></i>
+                                <p>100+ athletes nurtured</p>
+                            </div>
+                        </div>
+                        <a href="donate.html" class="btn">Support This Program</a>
                     </div>
-                    <h3>Sports Talent Support</h3>
-                    <p>This program aims to identify and support children with sports talent, providing them with the resources to excel in their chosen sport.</p>
                 </div>
                 
-                <!-- Program 4 -->
                 <div class="program-card">
-                    <div class="program-image-holder">
-                        <img src="faminine.jpg" alt="Feminine Products Program">
+                    <img src="faminine.jpg" alt="Feminine Products Program" class="program-image">
+                    <div class="program-content">
+                        <h3>Feminine Products Support</h3>
+                        <p>We provide feminine hygiene products to young girls to ensure they can attend school without missing days due to lack of access to these necessities.</p>
+                        <div class="program-stats">
+                            <div class="stat">
+                                <i class="fas fa-female"></i>
+                                <p>300+ girls supported</p>
+                            </div>
+                        </div>
+                        <a href="donate.html" class="btn">Support This Program</a>
                     </div>
-                    <h3>Feminine Products Support</h3>
-                    <p>We provide feminine hygiene products to young girls to ensure they can attend school without missing days due to lack of access to these necessities.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Program Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Academic Improvement</h3>
+                    <p>85% of students in our extra classes program show measurable improvement in their grades within 3 months.</p>
+                </div>
+                <div class="impact-item">
+                    <i class="fas fa-smile"></i>
+                    <h3>Increased Confidence</h3>
+                    <p>92% of uniform recipients report feeling more confident attending school.</p>
+                </div>
+                <div class="impact-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>School Attendance</h3>
+                    <p>Feminine product distribution has reduced absenteeism among girls by 75%.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card cta-section">
+            <h2>Help Us Expand Our Programs</h2>
+            <p>With your support, we can reach more children and create more opportunities for success.</p>
+            <div class="cta-buttons">
+
+
+
+
+                            <a href="donate.html" class="btn btn-primary">Donate Now</a>
+                <a href="contact.html" class="btn btn-secondary">Volunteer</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section">
+                <h3>About ScholarsSA</h3>
+                <p>Empowering children through education, sports, and essential support to help them reach their full potential.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Cape Town, South Africa</p>
+                <p><i class="fas fa-phone"></i> +27 21 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@scholarssa.org</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Scholar SA. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
 
-  
+    <script src="script.js"></script>
 </body>
 </html>
